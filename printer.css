@@ -1,0 +1,9 @@
+.badge {
+    page-break-after: always;
+ }
+ body {
+    -webkit-print-color-adjust: exact !important;
+  }
+ @media print {
+    img {page-break-after: always;}
+}
